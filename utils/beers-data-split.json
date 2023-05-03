@@ -1,0 +1,1836 @@
+[
+    {
+        "style": "Pale Ale",
+        "name": "American Amber Ale",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/amber-ale"
+    },
+    {
+        "style": "Pale Ale",
+        "name": "American Pale Ale",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-pale-ale"
+    },
+    {
+        "style": "Pale Ale",
+        "name": "English-Style Bitter",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low"
+        ],
+        "link": "www.craftbeer.com/styles/bitter"
+    },
+    {
+        "style": "Pale Ale",
+        "name": "Blonde Ale",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/blonde-ale"
+    },
+    {
+        "style": "Pale Ale",
+        "name": "English-Style Pale Ale (ESB)",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-pale-ale-esb"
+    },
+    {
+        "style": "Dark Lager",
+        "name": "American Amber Lager",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-amber-lager"
+    },
+    {
+        "style": "Dark Lager",
+        "name": "German-Style Dunkel",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-dunkel"
+    },
+    {
+        "style": "Dark Lager",
+        "name": "German-Style M\u00c3\u00a4rzen/Oktoberfest",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-marzen-oktoberfest"
+    },
+    {
+        "style": "Dark Lager",
+        "name": "German-Style Schwarzbier",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-schwarzbier"
+    },
+    {
+        "style": "Dark Lager",
+        "name": "Vienna-Style Lager",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/vienna-style-lager"
+    },
+    {
+        "style": "Brown Ale",
+        "name": "American Brown Ale",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-brown-ale"
+    },
+    {
+        "style": "Brown Ale",
+        "name": "English-Style Brown Ale",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-brown-ale"
+    },
+    {
+        "style": "Brown Ale",
+        "name": "English-Style Mild",
+        "alcohol": [
+            "not-detectable"
+        ],
+        "color": [
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-dark-mild"
+    },
+    {
+        "style": "India Pale Ale",
+        "name": "American IPA",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-india-pale-ale"
+    },
+    {
+        "style": "India Pale Ale",
+        "name": "English-Style IPA",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-india-pale-ale"
+    },
+    {
+        "style": "India Pale Ale",
+        "name": "Imperial IPA",
+        "alcohol": [
+            "noticeable"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/imperial-india-pale-ale"
+    },
+    {
+        "style": "Wheat Beer",
+        "name": "American-Style Wheat Wine Ale",
+        "alcohol": [
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-style-wheat-wine-ale"
+    },
+    {
+        "style": "Wheat Beer",
+        "name": "American Wheat",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-wheat"
+    },
+    {
+        "style": "Wheat Beer",
+        "name": "Belgian-Style Witbier",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-wit"
+    },
+    {
+        "style": "Wheat Beer",
+        "name": "Berliner-Style Weisse",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/berliner-style-weisse"
+    },
+    {
+        "style": "Wheat Beer",
+        "name": "German-Style Dunkelweizen",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-dunkelweizen"
+    },
+    {
+        "style": "Wheat Beer",
+        "name": "German-Style Hefeweizen",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-hefeweizen"
+    },
+    {
+        "style": "Strong Ale",
+        "name": "American Barley Wine",
+        "alcohol": [
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-barley-wine"
+    },
+    {
+        "style": "Strong Ale",
+        "name": "American Imperial Red Ale",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-imperial-red-ale"
+    },
+    {
+        "style": "Strong Ale",
+        "name": "British-Style Barley Wine Ale",
+        "alcohol": [
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "amber",
+            "brown"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/british-style-barley-wine-ale"
+    },
+    {
+        "style": "Strong Ale",
+        "name": "English-Style Old Ale",
+        "alcohol": [
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-old-ale"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Blonde Ale",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-blonde-ale"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Dubbel",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-dubbel"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Golden Strong Ale",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "pale",
+            "amber"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-golden-strong-ale"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Pale Ale",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-pale-ale"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Quadrupel",
+        "alcohol": [
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "amber",
+            "brown"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-quadrupel"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Saison",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-saison"
+    },
+    {
+        "style": "Belgian Style",
+        "name": "Belgian-Style Tripel",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "pale",
+            "amber"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-tripel"
+    },
+    {
+        "style": "Hybrid Beer",
+        "name": "American Cream Ale",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-cream-ale"
+    },
+    {
+        "style": "Hybrid Beer",
+        "name": "French-Style Bi\u00c3\u00a9re de Garde",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "amber",
+            "brown"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/biere-de-garde"
+    },
+    {
+        "style": "Hybrid Beer",
+        "name": "California Common",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "amber",
+            "brown"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/california-common"
+    },
+    {
+        "style": "Hybrid Beer",
+        "name": "German-Style Brown/Altbier",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-brownaltbier"
+    },
+    {
+        "style": "Hybrid Beer",
+        "name": "German-Style K\u00c3\u00b6lsch",
+        "alcohol": [
+            "not-detectable"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-kolsch"
+    },
+    {
+        "style": "Hybrid Beer",
+        "name": "Irish-Style Red",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/irish-style-red"
+    },
+    {
+        "style": "Porter",
+        "name": "American Imperial Porter",
+        "alcohol": [
+            "noticeable"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-imperial-porter"
+    },
+    {
+        "style": "Porter",
+        "name": "Baltic-Style Porter",
+        "alcohol": [
+            "noticeable"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/baltic-style-porter"
+    },
+    {
+        "style": "Porter",
+        "name": "English-Style Brown Porter",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-brown-porter"
+    },
+    {
+        "style": "Porter",
+        "name": "Robust Porter",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/robust-porter"
+    },
+    {
+        "style": "Porter",
+        "name": "Smoke Porter",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/smoke-porter"
+    },
+    {
+        "style": "Stout",
+        "name": "American Imperial Stout",
+        "alcohol": [
+            "noticeable"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-imperial-stout"
+    },
+    {
+        "style": "Stout",
+        "name": "American Stout",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-stout"
+    },
+    {
+        "style": "Stout",
+        "name": "English-Style Oatmeal Stout",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-oatmeal-stout"
+    },
+    {
+        "style": "Stout",
+        "name": "English-Style Sweet Stout (Milk Stout)",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/english-style-sweet-stout-milk-stout"
+    },
+    {
+        "style": "Stout",
+        "name": "Irish-Style Dry Stout",
+        "alcohol": [
+            "not-detectable"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/irish-style-dry-stout"
+    },
+    {
+        "style": "Bock",
+        "name": "German-Style Bock",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-bock"
+    },
+    {
+        "style": "Bock",
+        "name": "German-Style Doppelbock",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-doppelbock"
+    },
+    {
+        "style": "Bock",
+        "name": "German-Style Maibock",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "pale",
+            "amber"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-heller-bock-maibock"
+    },
+    {
+        "style": "Bock",
+        "name": "German-Style Weizenbock",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-weizenbock"
+    },
+    {
+        "style": "Scottish-Style Ale",
+        "name": "Scotch Ale/Wee Heavy",
+        "alcohol": [
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/scotch-ale-wee-heavy"
+    },
+    {
+        "style": "Scottish-Style Ale",
+        "name": "Scottish-Style Ale",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "low",
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/scottish-style-ale"
+    },
+    {
+        "style": "Wild/Sour",
+        "name": "American Brett",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "top",
+            "bottom",
+            "wild"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-brett"
+    },
+    {
+        "style": "Wild/Sour",
+        "name": "American Sour",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "top",
+            "wild"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-sour"
+    },
+    {
+        "style": "Wild/Sour",
+        "name": "Belgian-Style Flanders",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "brown"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "wild"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-flanders"
+    },
+    {
+        "style": "Wild/Sour",
+        "name": "Belgian-Style Fruit Lambic",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "top",
+            "wild"
+        ],
+        "carbonation": [
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-fruit-lambic"
+    },
+    {
+        "style": "Wild/Sour",
+        "name": "Belgian-Style Lambic/Gueuze",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "amber"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "top",
+            "wild"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/belgian-style-lambic-gueuze"
+    },
+    {
+        "style": "Wild/Sour",
+        "name": "Contemporary Gose",
+        "alcohol": [
+            "not-detectable"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "sour-tart-funky"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/contemporary-gose"
+    },
+    {
+        "style": "Pilsener & Pale Lager",
+        "name": "American Lager",
+        "alcohol": [
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/american-lager"
+    },
+    {
+        "style": "Pilsener & Pale Lager",
+        "name": "Bohemian-Style Pilsener",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/bohemian-style-pilsener"
+    },
+    {
+        "style": "Pilsener & Pale Lager",
+        "name": "European-Style Export",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/european-style-export"
+    },
+    {
+        "style": "Pilsener & Pale Lager",
+        "name": "German-Style Helles",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-helles"
+    },
+    {
+        "style": "Pilsener & Pale Lager",
+        "name": "German-Style Pilsener",
+        "alcohol": [
+            "not-detectable"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "crisp-clean"
+        ],
+        "fermentation": [
+            "bottom"
+        ],
+        "carbonation": [
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/german-style-pilsener"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "American Black Ale",
+        "alcohol": [
+            "mild",
+            "noticeable"
+        ],
+        "color": [
+            "dark"
+        ],
+        "flavor": [
+            "hoppy-bitter"
+        ],
+        "fermentation": [
+            "top"
+        ],
+        "carbonation": [
+            "medium"
+        ],
+        "link": "www.craftbeer.com/styles/american-black-ale"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Barrel-Aged Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "sour-tart-funky",
+            "crisp-clean",
+            "dark-roasty",
+            "malty-sweet",
+            "hoppy-bitter",
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top",
+            "bottom",
+            "wild"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/barrel-aged-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Chocolate Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/chocolate-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Coffee Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "dark-roasty"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/coffee-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Fruit and Field Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/fruit-field-or-flavored"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Gluten Free",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/gluten-free"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Herb and Spice Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/herb-and-spice-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Honey Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/honey-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Pumpkin Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/pumpkin-beers"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Rye Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/rye-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Session Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild"
+        ],
+        "color": [
+            "pale"
+        ],
+        "flavor": [
+            "sour-tart-funky",
+            "crisp-clean",
+            "dark-roasty",
+            "malty-sweet",
+            "hoppy-bitter",
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/session-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Smoke Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "malty-sweet"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/smoke-beer"
+    },
+    {
+        "style": "Specialty Beer",
+        "name": "Specialty Beer",
+        "alcohol": [
+            "not-detectable",
+            "mild",
+            "noticeable",
+            "harsh"
+        ],
+        "color": [
+            "pale",
+            "amber",
+            "brown",
+            "dark"
+        ],
+        "flavor": [
+            "sour-tart-funky",
+            "crisp-clean",
+            "dark-roasty",
+            "malty-sweet",
+            "hoppy-bitter",
+            "fruity-spicy"
+        ],
+        "fermentation": [
+            "top",
+            "bottom"
+        ],
+        "carbonation": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "link": "www.craftbeer.com/styles/specialty-beer"
+    }
+]
