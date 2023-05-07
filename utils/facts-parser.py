@@ -64,7 +64,7 @@ for index, beer in enumerate(beers):
         beer_facts.write('\n')
         facts.write(beer_facts.getvalue())
 
-filename = '../bases/facts.kfb'
+filename = '../bases/beer_facts.kfb'
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 with open(filename, 'w') as f:
     f.write(facts.getvalue())
