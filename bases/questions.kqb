@@ -7,8 +7,9 @@ season($ans)
     Weather conditions influence our perceptions and needs. The choice of a beer is among these.
     Tell me, please, what season is it?
     ---
-    $ans = select_1
-        1: spring
-        2: summer
-        3: autumn
-        4: winter
+    $ans = string("spring"|"summer"|"autumn"|"winter")
+
+preferred_color($ans)
+    Do you generally prefer pale, amber, brown or dark beer?
+    ---
+    $ans = string("pale"|"amber"|"brown"|"dark")

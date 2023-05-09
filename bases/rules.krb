@@ -1,11 +1,18 @@
-test
-    use beer()
-
 which_season
     use beer($beer, $link, $explanation)
     when
         questions.season($season)
         attributes_facts.alcohol_for_season($season, $alcohol)
+        attributes_facts.flavor_for_season($season, $flavor)
         beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.has_flavor($beer, $flavor)
         beer_facts.link($beer, $link)
         attributes_facts.explanation('which_season', $season, $explanation)
+
+preferred_color
+    use beer($beer, $link, $explanation)
+    when
+        questions.preferred_color($color)
+        beer_facts.has_color($beer, $color)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('preferred_color', $color, $explanation)
