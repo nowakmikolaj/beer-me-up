@@ -7,6 +7,7 @@ has_flavor('American Amber Ale', 'crisp-clean')
 has_fermentation('American Amber Ale', 'top')
 has_carbonation('American Amber Ale', 'medium')
 has_carbonation('American Amber Ale', 'high')
+link('American Amber Ale', 'www.craftbeer.com/styles/amber-ale')
 
 # Beer 2:
 has_style('American Pale Ale', 'Pale Ale')
@@ -17,6 +18,7 @@ has_flavor('American Pale Ale', 'hoppy-bitter')
 has_fermentation('American Pale Ale', 'top')
 has_carbonation('American Pale Ale', 'medium')
 has_carbonation('American Pale Ale', 'high')
+link('American Pale Ale', 'www.craftbeer.com/styles/american-pale-ale')
 
 # Beer 3:
 has_style('English-Style Bitter', 'Pale Ale')
@@ -26,6 +28,7 @@ has_color('English-Style Bitter', 'amber')
 has_flavor('English-Style Bitter', 'hoppy-bitter')
 has_fermentation('English-Style Bitter', 'top')
 has_carbonation('English-Style Bitter', 'low')
+link('English-Style Bitter', 'www.craftbeer.com/styles/bitter')
 
 # Beer 4:
 has_style('Blonde Ale', 'Pale Ale')
@@ -37,6 +40,7 @@ has_fermentation('Blonde Ale', 'top')
 has_fermentation('Blonde Ale', 'bottom')
 has_carbonation('Blonde Ale', 'medium')
 has_carbonation('Blonde Ale', 'high')
+link('Blonde Ale', 'www.craftbeer.com/styles/blonde-ale')
 
 # Beer 5:
 has_style('English-Style Pale Ale (ESB)', 'Pale Ale')
@@ -45,6 +49,7 @@ has_color('English-Style Pale Ale (ESB)', 'amber')
 has_flavor('English-Style Pale Ale (ESB)', 'malty-sweet')
 has_fermentation('English-Style Pale Ale (ESB)', 'top')
 has_carbonation('English-Style Pale Ale (ESB)', 'high')
+link('English-Style Pale Ale (ESB)', 'www.craftbeer.com/styles/english-style-pale-ale-esb')
 
 # Beer 6:
 has_style('American Amber Lager', 'Dark Lager')
@@ -55,6 +60,7 @@ has_flavor('American Amber Lager', 'crisp-clean')
 has_fermentation('American Amber Lager', 'bottom')
 has_carbonation('American Amber Lager', 'medium')
 has_carbonation('American Amber Lager', 'high')
+link('American Amber Lager', 'www.craftbeer.com/styles/american-amber-lager')
 
 # Beer 7:
 has_style('German-Style Dunkel', 'Dark Lager')
@@ -64,6 +70,7 @@ has_color('German-Style Dunkel', 'brown')
 has_flavor('German-Style Dunkel', 'dark-roasty')
 has_fermentation('German-Style Dunkel', 'bottom')
 has_carbonation('German-Style Dunkel', 'medium')
+link('German-Style Dunkel', 'www.craftbeer.com/styles/german-style-dunkel')
 
 # Beer 8:
 has_style('German-Style Märzen/Oktoberfest', 'Dark Lager')
@@ -72,6 +79,7 @@ has_color('German-Style Märzen/Oktoberfest', 'amber')
 has_flavor('German-Style Märzen/Oktoberfest', 'malty-sweet')
 has_fermentation('German-Style Märzen/Oktoberfest', 'bottom')
 has_carbonation('German-Style Märzen/Oktoberfest', 'medium')
+link('German-Style Märzen/Oktoberfest', 'www.craftbeer.com/styles/german-style-marzen-oktoberfest')
 
 # Beer 9:
 has_style('German-Style Schwarzbier', 'Dark Lager')
@@ -82,6 +90,7 @@ has_flavor('German-Style Schwarzbier', 'dark-roasty')
 has_fermentation('German-Style Schwarzbier', 'bottom')
 has_carbonation('German-Style Schwarzbier', 'medium')
 has_carbonation('German-Style Schwarzbier', 'high')
+link('German-Style Schwarzbier', 'www.craftbeer.com/styles/german-style-schwarzbier')
 
 # Beer 10:
 has_style('Vienna-Style Lager', 'Dark Lager')
@@ -90,6 +99,7 @@ has_color('Vienna-Style Lager', 'brown')
 has_flavor('Vienna-Style Lager', 'crisp-clean')
 has_fermentation('Vienna-Style Lager', 'bottom')
 has_carbonation('Vienna-Style Lager', 'medium')
+link('Vienna-Style Lager', 'www.craftbeer.com/styles/vienna-style-lager')
 
 # Beer 11:
 has_style('American Brown Ale', 'Brown Ale')
@@ -100,6 +110,7 @@ has_flavor('American Brown Ale', 'malty-sweet')
 has_fermentation('American Brown Ale', 'top')
 has_carbonation('American Brown Ale', 'medium')
 has_carbonation('American Brown Ale', 'high')
+link('American Brown Ale', 'www.craftbeer.com/styles/american-brown-ale')
 
 # Beer 12:
 has_style('English-Style Brown Ale', 'Brown Ale')
@@ -110,6 +121,7 @@ has_flavor('English-Style Brown Ale', 'malty-sweet')
 has_fermentation('English-Style Brown Ale', 'top')
 has_carbonation('English-Style Brown Ale', 'low')
 has_carbonation('English-Style Brown Ale', 'medium')
+link('English-Style Brown Ale', 'www.craftbeer.com/styles/english-style-brown-ale')
 
 # Beer 13:
 has_style('English-Style Mild', 'Brown Ale')
@@ -120,6 +132,7 @@ has_flavor('English-Style Mild', 'malty-sweet')
 has_fermentation('English-Style Mild', 'top')
 has_carbonation('English-Style Mild', 'low')
 has_carbonation('English-Style Mild', 'medium')
+link('English-Style Mild', 'www.craftbeer.com/styles/english-style-dark-mild')
 
 # Beer 14:
 has_style('American IPA', 'India Pale Ale')
@@ -130,6 +143,7 @@ has_flavor('American IPA', 'hoppy-bitter')
 has_fermentation('American IPA', 'top')
 has_carbonation('American IPA', 'medium')
 has_carbonation('American IPA', 'high')
+link('American IPA', 'www.craftbeer.com/styles/american-india-pale-ale')
 
 # Beer 15:
 has_style('English-Style IPA', 'India Pale Ale')
@@ -141,6 +155,7 @@ has_flavor('English-Style IPA', 'hoppy-bitter')
 has_fermentation('English-Style IPA', 'top')
 has_carbonation('English-Style IPA', 'medium')
 has_carbonation('English-Style IPA', 'high')
+link('English-Style IPA', 'www.craftbeer.com/styles/english-style-india-pale-ale')
 
 # Beer 16:
 has_style('Imperial IPA', 'India Pale Ale')
@@ -150,6 +165,7 @@ has_flavor('Imperial IPA', 'hoppy-bitter')
 has_fermentation('Imperial IPA', 'top')
 has_carbonation('Imperial IPA', 'medium')
 has_carbonation('Imperial IPA', 'high')
+link('Imperial IPA', 'www.craftbeer.com/styles/imperial-india-pale-ale')
 
 # Beer 17:
 has_style('American-Style Wheat Wine Ale', 'Wheat Beer')
@@ -160,6 +176,7 @@ has_flavor('American-Style Wheat Wine Ale', 'malty-sweet')
 has_fermentation('American-Style Wheat Wine Ale', 'top')
 has_carbonation('American-Style Wheat Wine Ale', 'low')
 has_carbonation('American-Style Wheat Wine Ale', 'medium')
+link('American-Style Wheat Wine Ale', 'www.craftbeer.com/styles/american-style-wheat-wine-ale')
 
 # Beer 18:
 has_style('American Wheat', 'Wheat Beer')
@@ -171,6 +188,7 @@ has_fermentation('American Wheat', 'top')
 has_fermentation('American Wheat', 'bottom')
 has_carbonation('American Wheat', 'medium')
 has_carbonation('American Wheat', 'high')
+link('American Wheat', 'www.craftbeer.com/styles/american-wheat')
 
 # Beer 19:
 has_style('Belgian-Style Witbier', 'Wheat Beer')
@@ -180,6 +198,7 @@ has_color('Belgian-Style Witbier', 'pale')
 has_flavor('Belgian-Style Witbier', 'fruity-spicy')
 has_fermentation('Belgian-Style Witbier', 'top')
 has_carbonation('Belgian-Style Witbier', 'high')
+link('Belgian-Style Witbier', 'www.craftbeer.com/styles/belgian-style-wit')
 
 # Beer 20:
 has_style('Berliner-Style Weisse', 'Wheat Beer')
@@ -191,6 +210,7 @@ has_fermentation('Berliner-Style Weisse', 'top')
 has_fermentation('Berliner-Style Weisse', 'bottom')
 has_carbonation('Berliner-Style Weisse', 'low')
 has_carbonation('Berliner-Style Weisse', 'medium')
+link('Berliner-Style Weisse', 'www.craftbeer.com/styles/berliner-style-weisse')
 
 # Beer 21:
 has_style('German-Style Dunkelweizen', 'Wheat Beer')
@@ -201,6 +221,7 @@ has_flavor('German-Style Dunkelweizen', 'malty-sweet')
 has_fermentation('German-Style Dunkelweizen', 'top')
 has_carbonation('German-Style Dunkelweizen', 'low')
 has_carbonation('German-Style Dunkelweizen', 'medium')
+link('German-Style Dunkelweizen', 'www.craftbeer.com/styles/german-style-dunkelweizen')
 
 # Beer 22:
 has_style('German-Style Hefeweizen', 'Wheat Beer')
@@ -209,6 +230,7 @@ has_color('German-Style Hefeweizen', 'pale')
 has_flavor('German-Style Hefeweizen', 'fruity-spicy')
 has_fermentation('German-Style Hefeweizen', 'top')
 has_carbonation('German-Style Hefeweizen', 'high')
+link('German-Style Hefeweizen', 'www.craftbeer.com/styles/german-style-hefeweizen')
 
 # Beer 23:
 has_style('American Barley Wine', 'Strong Ale')
@@ -219,6 +241,7 @@ has_flavor('American Barley Wine', 'hoppy-bitter')
 has_fermentation('American Barley Wine', 'top')
 has_carbonation('American Barley Wine', 'low')
 has_carbonation('American Barley Wine', 'medium')
+link('American Barley Wine', 'www.craftbeer.com/styles/american-barley-wine')
 
 # Beer 24:
 has_style('American Imperial Red Ale', 'Strong Ale')
@@ -228,6 +251,7 @@ has_color('American Imperial Red Ale', 'brown')
 has_flavor('American Imperial Red Ale', 'hoppy-bitter')
 has_fermentation('American Imperial Red Ale', 'top')
 has_carbonation('American Imperial Red Ale', 'medium')
+link('American Imperial Red Ale', 'www.craftbeer.com/styles/american-imperial-red-ale')
 
 # Beer 25:
 has_style('British-Style Barley Wine Ale', 'Strong Ale')
@@ -239,6 +263,7 @@ has_flavor('British-Style Barley Wine Ale', 'malty-sweet')
 has_fermentation('British-Style Barley Wine Ale', 'top')
 has_carbonation('British-Style Barley Wine Ale', 'low')
 has_carbonation('British-Style Barley Wine Ale', 'medium')
+link('British-Style Barley Wine Ale', 'www.craftbeer.com/styles/british-style-barley-wine-ale')
 
 # Beer 26:
 has_style('English-Style Old Ale', 'Strong Ale')
@@ -249,6 +274,7 @@ has_flavor('English-Style Old Ale', 'malty-sweet')
 has_fermentation('English-Style Old Ale', 'top')
 has_carbonation('English-Style Old Ale', 'low')
 has_carbonation('English-Style Old Ale', 'medium')
+link('English-Style Old Ale', 'www.craftbeer.com/styles/english-style-old-ale')
 
 # Beer 27:
 has_style('Belgian-Style Blonde Ale', 'Belgian Style')
@@ -259,6 +285,7 @@ has_flavor('Belgian-Style Blonde Ale', 'fruity-spicy')
 has_fermentation('Belgian-Style Blonde Ale', 'top')
 has_carbonation('Belgian-Style Blonde Ale', 'medium')
 has_carbonation('Belgian-Style Blonde Ale', 'high')
+link('Belgian-Style Blonde Ale', 'www.craftbeer.com/styles/belgian-style-blonde-ale')
 
 # Beer 28:
 has_style('Belgian-Style Dubbel', 'Belgian Style')
@@ -270,6 +297,7 @@ has_flavor('Belgian-Style Dubbel', 'fruity-spicy')
 has_fermentation('Belgian-Style Dubbel', 'top')
 has_carbonation('Belgian-Style Dubbel', 'medium')
 has_carbonation('Belgian-Style Dubbel', 'high')
+link('Belgian-Style Dubbel', 'www.craftbeer.com/styles/belgian-style-dubbel')
 
 # Beer 29:
 has_style('Belgian-Style Golden Strong Ale', 'Belgian Style')
@@ -280,6 +308,7 @@ has_flavor('Belgian-Style Golden Strong Ale', 'fruity-spicy')
 has_fermentation('Belgian-Style Golden Strong Ale', 'top')
 has_carbonation('Belgian-Style Golden Strong Ale', 'medium')
 has_carbonation('Belgian-Style Golden Strong Ale', 'high')
+link('Belgian-Style Golden Strong Ale', 'www.craftbeer.com/styles/belgian-style-golden-strong-ale')
 
 # Beer 30:
 has_style('Belgian-Style Pale Ale', 'Belgian Style')
@@ -289,6 +318,7 @@ has_color('Belgian-Style Pale Ale', 'amber')
 has_flavor('Belgian-Style Pale Ale', 'fruity-spicy')
 has_fermentation('Belgian-Style Pale Ale', 'top')
 has_carbonation('Belgian-Style Pale Ale', 'medium')
+link('Belgian-Style Pale Ale', 'www.craftbeer.com/styles/belgian-style-pale-ale')
 
 # Beer 31:
 has_style('Belgian-Style Quadrupel', 'Belgian Style')
@@ -299,6 +329,7 @@ has_color('Belgian-Style Quadrupel', 'brown')
 has_flavor('Belgian-Style Quadrupel', 'fruity-spicy')
 has_fermentation('Belgian-Style Quadrupel', 'top')
 has_carbonation('Belgian-Style Quadrupel', 'medium')
+link('Belgian-Style Quadrupel', 'www.craftbeer.com/styles/belgian-style-quadrupel')
 
 # Beer 32:
 has_style('Belgian-Style Saison', 'Belgian Style')
@@ -308,6 +339,7 @@ has_color('Belgian-Style Saison', 'amber')
 has_flavor('Belgian-Style Saison', 'fruity-spicy')
 has_fermentation('Belgian-Style Saison', 'top')
 has_carbonation('Belgian-Style Saison', 'high')
+link('Belgian-Style Saison', 'www.craftbeer.com/styles/belgian-style-saison')
 
 # Beer 33:
 has_style('Belgian-Style Tripel', 'Belgian Style')
@@ -317,6 +349,7 @@ has_color('Belgian-Style Tripel', 'amber')
 has_flavor('Belgian-Style Tripel', 'fruity-spicy')
 has_fermentation('Belgian-Style Tripel', 'top')
 has_carbonation('Belgian-Style Tripel', 'high')
+link('Belgian-Style Tripel', 'www.craftbeer.com/styles/belgian-style-tripel')
 
 # Beer 34:
 has_style('American Cream Ale', 'Hybrid Beer')
@@ -327,6 +360,7 @@ has_flavor('American Cream Ale', 'crisp-clean')
 has_fermentation('American Cream Ale', 'top')
 has_fermentation('American Cream Ale', 'bottom')
 has_carbonation('American Cream Ale', 'high')
+link('American Cream Ale', 'www.craftbeer.com/styles/american-cream-ale')
 
 # Beer 35:
 has_style('French-Style Biére de Garde', 'Hybrid Beer')
@@ -337,6 +371,7 @@ has_color('French-Style Biére de Garde', 'brown')
 has_flavor('French-Style Biére de Garde', 'fruity-spicy')
 has_fermentation('French-Style Biére de Garde', 'top')
 has_carbonation('French-Style Biére de Garde', 'high')
+link('French-Style Biére de Garde', 'www.craftbeer.com/styles/biere-de-garde')
 
 # Beer 36:
 has_style('California Common', 'Hybrid Beer')
@@ -348,6 +383,7 @@ has_flavor('California Common', 'hoppy-bitter')
 has_fermentation('California Common', 'bottom')
 has_carbonation('California Common', 'medium')
 has_carbonation('California Common', 'high')
+link('California Common', 'www.craftbeer.com/styles/california-common')
 
 # Beer 37:
 has_style('German-Style Brown/Altbier', 'Hybrid Beer')
@@ -358,6 +394,7 @@ has_flavor('German-Style Brown/Altbier', 'dark-roasty')
 has_fermentation('German-Style Brown/Altbier', 'top')
 has_carbonation('German-Style Brown/Altbier', 'medium')
 has_carbonation('German-Style Brown/Altbier', 'high')
+link('German-Style Brown/Altbier', 'www.craftbeer.com/styles/german-style-brownaltbier')
 
 # Beer 38:
 has_style('German-Style Kölsch', 'Hybrid Beer')
@@ -367,6 +404,7 @@ has_flavor('German-Style Kölsch', 'crisp-clean')
 has_fermentation('German-Style Kölsch', 'top')
 has_carbonation('German-Style Kölsch', 'medium')
 has_carbonation('German-Style Kölsch', 'high')
+link('German-Style Kölsch', 'www.craftbeer.com/styles/german-style-kolsch')
 
 # Beer 39:
 has_style('Irish-Style Red', 'Hybrid Beer')
@@ -377,6 +415,7 @@ has_flavor('Irish-Style Red', 'malty-sweet')
 has_fermentation('Irish-Style Red', 'top')
 has_carbonation('Irish-Style Red', 'medium')
 has_carbonation('Irish-Style Red', 'high')
+link('Irish-Style Red', 'www.craftbeer.com/styles/irish-style-red')
 
 # Beer 40:
 has_style('American Imperial Porter', 'Porter')
@@ -385,6 +424,7 @@ has_color('American Imperial Porter', 'dark')
 has_flavor('American Imperial Porter', 'dark-roasty')
 has_fermentation('American Imperial Porter', 'top')
 has_carbonation('American Imperial Porter', 'medium')
+link('American Imperial Porter', 'www.craftbeer.com/styles/american-imperial-porter')
 
 # Beer 41:
 has_style('Baltic-Style Porter', 'Porter')
@@ -393,6 +433,7 @@ has_color('Baltic-Style Porter', 'dark')
 has_flavor('Baltic-Style Porter', 'dark-roasty')
 has_fermentation('Baltic-Style Porter', 'bottom')
 has_carbonation('Baltic-Style Porter', 'medium')
+link('Baltic-Style Porter', 'www.craftbeer.com/styles/baltic-style-porter')
 
 # Beer 42:
 has_style('English-Style Brown Porter', 'Porter')
@@ -403,6 +444,7 @@ has_fermentation('English-Style Brown Porter', 'top')
 has_carbonation('English-Style Brown Porter', 'low')
 has_carbonation('English-Style Brown Porter', 'medium')
 has_carbonation('English-Style Brown Porter', 'high')
+link('English-Style Brown Porter', 'www.craftbeer.com/styles/english-style-brown-porter')
 
 # Beer 43:
 has_style('Robust Porter', 'Porter')
@@ -413,6 +455,7 @@ has_fermentation('Robust Porter', 'top')
 has_carbonation('Robust Porter', 'low')
 has_carbonation('Robust Porter', 'medium')
 has_carbonation('Robust Porter', 'high')
+link('Robust Porter', 'www.craftbeer.com/styles/robust-porter')
 
 # Beer 44:
 has_style('Smoke Porter', 'Porter')
@@ -426,6 +469,7 @@ has_fermentation('Smoke Porter', 'top')
 has_carbonation('Smoke Porter', 'low')
 has_carbonation('Smoke Porter', 'medium')
 has_carbonation('Smoke Porter', 'high')
+link('Smoke Porter', 'www.craftbeer.com/styles/smoke-porter')
 
 # Beer 45:
 has_style('American Imperial Stout', 'Stout')
@@ -435,6 +479,7 @@ has_flavor('American Imperial Stout', 'dark-roasty')
 has_fermentation('American Imperial Stout', 'top')
 has_carbonation('American Imperial Stout', 'low')
 has_carbonation('American Imperial Stout', 'medium')
+link('American Imperial Stout', 'www.craftbeer.com/styles/american-imperial-stout')
 
 # Beer 46:
 has_style('American Stout', 'Stout')
@@ -445,6 +490,7 @@ has_flavor('American Stout', 'dark-roasty')
 has_fermentation('American Stout', 'top')
 has_carbonation('American Stout', 'low')
 has_carbonation('American Stout', 'medium')
+link('American Stout', 'www.craftbeer.com/styles/american-stout')
 
 # Beer 47:
 has_style('English-Style Oatmeal Stout', 'Stout')
@@ -454,6 +500,7 @@ has_flavor('English-Style Oatmeal Stout', 'dark-roasty')
 has_fermentation('English-Style Oatmeal Stout', 'top')
 has_carbonation('English-Style Oatmeal Stout', 'low')
 has_carbonation('English-Style Oatmeal Stout', 'medium')
+link('English-Style Oatmeal Stout', 'www.craftbeer.com/styles/english-style-oatmeal-stout')
 
 # Beer 48:
 has_style('English-Style Sweet Stout (Milk Stout)', 'Stout')
@@ -463,6 +510,7 @@ has_flavor('English-Style Sweet Stout (Milk Stout)', 'dark-roasty')
 has_fermentation('English-Style Sweet Stout (Milk Stout)', 'top')
 has_carbonation('English-Style Sweet Stout (Milk Stout)', 'low')
 has_carbonation('English-Style Sweet Stout (Milk Stout)', 'medium')
+link('English-Style Sweet Stout (Milk Stout)', 'www.craftbeer.com/styles/english-style-sweet-stout-milk-stout')
 
 # Beer 49:
 has_style('Irish-Style Dry Stout', 'Stout')
@@ -472,6 +520,7 @@ has_flavor('Irish-Style Dry Stout', 'dark-roasty')
 has_fermentation('Irish-Style Dry Stout', 'top')
 has_carbonation('Irish-Style Dry Stout', 'low')
 has_carbonation('Irish-Style Dry Stout', 'medium')
+link('Irish-Style Dry Stout', 'www.craftbeer.com/styles/irish-style-dry-stout')
 
 # Beer 50:
 has_style('German-Style Bock', 'Bock')
@@ -483,6 +532,7 @@ has_flavor('German-Style Bock', 'malty-sweet')
 has_fermentation('German-Style Bock', 'bottom')
 has_carbonation('German-Style Bock', 'low')
 has_carbonation('German-Style Bock', 'medium')
+link('German-Style Bock', 'www.craftbeer.com/styles/german-style-bock')
 
 # Beer 51:
 has_style('German-Style Doppelbock', 'Bock')
@@ -494,6 +544,7 @@ has_flavor('German-Style Doppelbock', 'malty-sweet')
 has_fermentation('German-Style Doppelbock', 'bottom')
 has_carbonation('German-Style Doppelbock', 'low')
 has_carbonation('German-Style Doppelbock', 'medium')
+link('German-Style Doppelbock', 'www.craftbeer.com/styles/german-style-doppelbock')
 
 # Beer 52:
 has_style('German-Style Maibock', 'Bock')
@@ -505,6 +556,7 @@ has_flavor('German-Style Maibock', 'malty-sweet')
 has_fermentation('German-Style Maibock', 'bottom')
 has_carbonation('German-Style Maibock', 'medium')
 has_carbonation('German-Style Maibock', 'high')
+link('German-Style Maibock', 'www.craftbeer.com/styles/german-style-heller-bock-maibock')
 
 # Beer 53:
 has_style('German-Style Weizenbock', 'Bock')
@@ -516,6 +568,7 @@ has_color('German-Style Weizenbock', 'dark')
 has_flavor('German-Style Weizenbock', 'malty-sweet')
 has_fermentation('German-Style Weizenbock', 'top')
 has_carbonation('German-Style Weizenbock', 'medium')
+link('German-Style Weizenbock', 'www.craftbeer.com/styles/german-style-weizenbock')
 
 # Beer 54:
 has_style('Scotch Ale/Wee Heavy', 'Scottish-Style Ale')
@@ -526,6 +579,7 @@ has_color('Scotch Ale/Wee Heavy', 'dark')
 has_flavor('Scotch Ale/Wee Heavy', 'malty-sweet')
 has_fermentation('Scotch Ale/Wee Heavy', 'top')
 has_carbonation('Scotch Ale/Wee Heavy', 'medium')
+link('Scotch Ale/Wee Heavy', 'www.craftbeer.com/styles/scotch-ale-wee-heavy')
 
 # Beer 55:
 has_style('Scottish-Style Ale', 'Scottish-Style Ale')
@@ -536,6 +590,7 @@ has_flavor('Scottish-Style Ale', 'malty-sweet')
 has_fermentation('Scottish-Style Ale', 'top')
 has_carbonation('Scottish-Style Ale', 'low')
 has_carbonation('Scottish-Style Ale', 'medium')
+link('Scottish-Style Ale', 'www.craftbeer.com/styles/scottish-style-ale')
 
 # Beer 56:
 has_style('American Brett', 'Wild/Sour')
@@ -554,6 +609,7 @@ has_fermentation('American Brett', 'wild')
 has_carbonation('American Brett', 'low')
 has_carbonation('American Brett', 'medium')
 has_carbonation('American Brett', 'high')
+link('American Brett', 'www.craftbeer.com/styles/american-brett')
 
 # Beer 57:
 has_style('American Sour', 'Wild/Sour')
@@ -571,6 +627,7 @@ has_fermentation('American Sour', 'wild')
 has_carbonation('American Sour', 'low')
 has_carbonation('American Sour', 'medium')
 has_carbonation('American Sour', 'high')
+link('American Sour', 'www.craftbeer.com/styles/american-sour')
 
 # Beer 58:
 has_style('Belgian-Style Flanders', 'Wild/Sour')
@@ -581,6 +638,7 @@ has_flavor('Belgian-Style Flanders', 'sour-tart-funky')
 has_fermentation('Belgian-Style Flanders', 'wild')
 has_carbonation('Belgian-Style Flanders', 'medium')
 has_carbonation('Belgian-Style Flanders', 'high')
+link('Belgian-Style Flanders', 'www.craftbeer.com/styles/belgian-style-flanders')
 
 # Beer 59:
 has_style('Belgian-Style Fruit Lambic', 'Wild/Sour')
@@ -596,6 +654,7 @@ has_flavor('Belgian-Style Fruit Lambic', 'sour-tart-funky')
 has_fermentation('Belgian-Style Fruit Lambic', 'top')
 has_fermentation('Belgian-Style Fruit Lambic', 'wild')
 has_carbonation('Belgian-Style Fruit Lambic', 'high')
+link('Belgian-Style Fruit Lambic', 'www.craftbeer.com/styles/belgian-style-fruit-lambic')
 
 # Beer 60:
 has_style('Belgian-Style Lambic/Gueuze', 'Wild/Sour')
@@ -608,6 +667,7 @@ has_fermentation('Belgian-Style Lambic/Gueuze', 'wild')
 has_carbonation('Belgian-Style Lambic/Gueuze', 'low')
 has_carbonation('Belgian-Style Lambic/Gueuze', 'medium')
 has_carbonation('Belgian-Style Lambic/Gueuze', 'high')
+link('Belgian-Style Lambic/Gueuze', 'www.craftbeer.com/styles/belgian-style-lambic-gueuze')
 
 # Beer 61:
 has_style('Contemporary Gose', 'Wild/Sour')
@@ -617,6 +677,7 @@ has_flavor('Contemporary Gose', 'sour-tart-funky')
 has_fermentation('Contemporary Gose', 'top')
 has_carbonation('Contemporary Gose', 'medium')
 has_carbonation('Contemporary Gose', 'high')
+link('Contemporary Gose', 'www.craftbeer.com/styles/contemporary-gose')
 
 # Beer 62:
 has_style('American Lager', 'Pilsener & Pale Lager')
@@ -626,6 +687,7 @@ has_flavor('American Lager', 'crisp-clean')
 has_fermentation('American Lager', 'bottom')
 has_carbonation('American Lager', 'medium')
 has_carbonation('American Lager', 'high')
+link('American Lager', 'www.craftbeer.com/styles/american-lager')
 
 # Beer 63:
 has_style('Bohemian-Style Pilsener', 'Pilsener & Pale Lager')
@@ -635,6 +697,7 @@ has_color('Bohemian-Style Pilsener', 'pale')
 has_flavor('Bohemian-Style Pilsener', 'crisp-clean')
 has_fermentation('Bohemian-Style Pilsener', 'bottom')
 has_carbonation('Bohemian-Style Pilsener', 'medium')
+link('Bohemian-Style Pilsener', 'www.craftbeer.com/styles/bohemian-style-pilsener')
 
 # Beer 64:
 has_style('European-Style Export', 'Pilsener & Pale Lager')
@@ -645,6 +708,7 @@ has_flavor('European-Style Export', 'crisp-clean')
 has_fermentation('European-Style Export', 'bottom')
 has_carbonation('European-Style Export', 'medium')
 has_carbonation('European-Style Export', 'high')
+link('European-Style Export', 'www.craftbeer.com/styles/european-style-export')
 
 # Beer 65:
 has_style('German-Style Helles', 'Pilsener & Pale Lager')
@@ -655,6 +719,7 @@ has_flavor('German-Style Helles', 'crisp-clean')
 has_fermentation('German-Style Helles', 'bottom')
 has_carbonation('German-Style Helles', 'medium')
 has_carbonation('German-Style Helles', 'high')
+link('German-Style Helles', 'www.craftbeer.com/styles/german-style-helles')
 
 # Beer 66:
 has_style('German-Style Pilsener', 'Pilsener & Pale Lager')
@@ -664,6 +729,7 @@ has_flavor('German-Style Pilsener', 'crisp-clean')
 has_fermentation('German-Style Pilsener', 'bottom')
 has_carbonation('German-Style Pilsener', 'medium')
 has_carbonation('German-Style Pilsener', 'high')
+link('German-Style Pilsener', 'www.craftbeer.com/styles/german-style-pilsener')
 
 # Beer 67:
 has_style('American Black Ale', 'Specialty Beer')
@@ -673,6 +739,7 @@ has_color('American Black Ale', 'dark')
 has_flavor('American Black Ale', 'hoppy-bitter')
 has_fermentation('American Black Ale', 'top')
 has_carbonation('American Black Ale', 'medium')
+link('American Black Ale', 'www.craftbeer.com/styles/american-black-ale')
 
 # Beer 68:
 has_style('Barrel-Aged Beer', 'Specialty Beer')
@@ -696,6 +763,7 @@ has_fermentation('Barrel-Aged Beer', 'wild')
 has_carbonation('Barrel-Aged Beer', 'low')
 has_carbonation('Barrel-Aged Beer', 'medium')
 has_carbonation('Barrel-Aged Beer', 'high')
+link('Barrel-Aged Beer', 'www.craftbeer.com/styles/barrel-aged-beer')
 
 # Beer 69:
 has_style('Chocolate Beer', 'Specialty Beer')
@@ -711,6 +779,7 @@ has_fermentation('Chocolate Beer', 'bottom')
 has_carbonation('Chocolate Beer', 'low')
 has_carbonation('Chocolate Beer', 'medium')
 has_carbonation('Chocolate Beer', 'high')
+link('Chocolate Beer', 'www.craftbeer.com/styles/chocolate-beer')
 
 # Beer 70:
 has_style('Coffee Beer', 'Specialty Beer')
@@ -728,6 +797,7 @@ has_fermentation('Coffee Beer', 'bottom')
 has_carbonation('Coffee Beer', 'low')
 has_carbonation('Coffee Beer', 'medium')
 has_carbonation('Coffee Beer', 'high')
+link('Coffee Beer', 'www.craftbeer.com/styles/coffee-beer')
 
 # Beer 71:
 has_style('Fruit and Field Beer', 'Specialty Beer')
@@ -744,6 +814,7 @@ has_fermentation('Fruit and Field Beer', 'bottom')
 has_carbonation('Fruit and Field Beer', 'low')
 has_carbonation('Fruit and Field Beer', 'medium')
 has_carbonation('Fruit and Field Beer', 'high')
+link('Fruit and Field Beer', 'www.craftbeer.com/styles/fruit-field-or-flavored')
 
 # Beer 72:
 has_style('Gluten Free', 'Specialty Beer')
@@ -761,6 +832,7 @@ has_fermentation('Gluten Free', 'bottom')
 has_carbonation('Gluten Free', 'low')
 has_carbonation('Gluten Free', 'medium')
 has_carbonation('Gluten Free', 'high')
+link('Gluten Free', 'www.craftbeer.com/styles/gluten-free')
 
 # Beer 73:
 has_style('Herb and Spice Beer', 'Specialty Beer')
@@ -777,6 +849,7 @@ has_fermentation('Herb and Spice Beer', 'bottom')
 has_carbonation('Herb and Spice Beer', 'low')
 has_carbonation('Herb and Spice Beer', 'medium')
 has_carbonation('Herb and Spice Beer', 'high')
+link('Herb and Spice Beer', 'www.craftbeer.com/styles/herb-and-spice-beer')
 
 # Beer 74:
 has_style('Honey Beer', 'Specialty Beer')
@@ -794,6 +867,7 @@ has_fermentation('Honey Beer', 'bottom')
 has_carbonation('Honey Beer', 'low')
 has_carbonation('Honey Beer', 'medium')
 has_carbonation('Honey Beer', 'high')
+link('Honey Beer', 'www.craftbeer.com/styles/honey-beer')
 
 # Beer 75:
 has_style('Pumpkin Beer', 'Specialty Beer')
@@ -810,6 +884,7 @@ has_fermentation('Pumpkin Beer', 'bottom')
 has_carbonation('Pumpkin Beer', 'low')
 has_carbonation('Pumpkin Beer', 'medium')
 has_carbonation('Pumpkin Beer', 'high')
+link('Pumpkin Beer', 'www.craftbeer.com/styles/pumpkin-beers')
 
 # Beer 76:
 has_style('Rye Beer', 'Specialty Beer')
@@ -827,6 +902,7 @@ has_fermentation('Rye Beer', 'bottom')
 has_carbonation('Rye Beer', 'low')
 has_carbonation('Rye Beer', 'medium')
 has_carbonation('Rye Beer', 'high')
+link('Rye Beer', 'www.craftbeer.com/styles/rye-beer')
 
 # Beer 77:
 has_style('Session Beer', 'Specialty Beer')
@@ -844,6 +920,7 @@ has_fermentation('Session Beer', 'bottom')
 has_carbonation('Session Beer', 'low')
 has_carbonation('Session Beer', 'medium')
 has_carbonation('Session Beer', 'high')
+link('Session Beer', 'www.craftbeer.com/styles/session-beer')
 
 # Beer 78:
 has_style('Smoke Beer', 'Specialty Beer')
@@ -861,6 +938,7 @@ has_fermentation('Smoke Beer', 'bottom')
 has_carbonation('Smoke Beer', 'low')
 has_carbonation('Smoke Beer', 'medium')
 has_carbonation('Smoke Beer', 'high')
+link('Smoke Beer', 'www.craftbeer.com/styles/smoke-beer')
 
 # Beer 79:
 has_style('Specialty Beer', 'Specialty Beer')
@@ -883,5 +961,5 @@ has_fermentation('Specialty Beer', 'bottom')
 has_carbonation('Specialty Beer', 'low')
 has_carbonation('Specialty Beer', 'medium')
 has_carbonation('Specialty Beer', 'high')
-
+link('Specialty Beer', 'www.craftbeer.com/styles/specialty-beer')
 

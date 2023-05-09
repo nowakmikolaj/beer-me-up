@@ -20,13 +20,13 @@ class Beer:
         self.flavor = format_list(flavor)
         self.fermentation = format_list(fermentation)
         self.carbonation = format_list(carbonation)
-        self.link = link
+        self.link = format(link)
 
     def __repr__(self):
         return f"\n{self.style} - {self.name}"
 
 
-with open('beers-data-split.json') as f:
+with open('beers-data-split.json', 'r') as f:
     data = f.read()
 
 beers_json = json.loads(data)
@@ -60,6 +60,7 @@ for index, beer in enumerate(beers):
             beer_facts.write(f'has_fermentation({beer.name}, {item})\n')
         for item in beer.carbonation:
             beer_facts.write(f'has_carbonation({beer.name}, {item})\n')
+        beer_facts.write(f'link({beer.name}, {beer.link})\n')
 
         beer_facts.write('\n')
         facts.write(beer_facts.getvalue())

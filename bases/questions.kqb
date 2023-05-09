@@ -2,3 +2,13 @@ gender($ans)
     Are you a male or female?
     ---
     $ans = string("male"|"female")
+
+season($ans)
+    Weather conditions influence our perceptions and needs. The choice of a beer is among these.
+    Tell me, please, what season is it?
+    ---
+    $ans = select_1
+        1: spring
+        2: summer
+        3: autumn
+        4: winter

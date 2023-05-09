@@ -1,2 +1,11 @@
 test
-    use beer(test)
+    use beer()
+
+which_season
+    use beer($beer, $link, $explanation)
+    when
+        questions.season($season)
+        attributes_facts.alcohol_for_season($season, $alcohol)
+        beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('which_season', $season, $explanation)

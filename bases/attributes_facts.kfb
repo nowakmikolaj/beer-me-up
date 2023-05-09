@@ -1,1 +1,29 @@
 # Additional facts for rules
+
+# rule: which_season
+# 1: spring
+# 2: summer
+# 3: autumn
+# 4: winter
+
+explanation('which_season', 1, 'Spring days are perfect to taste beers with clean or spicy flavor, without the clash of too much alcohol.')
+explanation('which_season', 2, 'Hotter days are perfect to taste beers with a slight sense of alcohol, with a clean fresh flavor.')
+explanation('which_season', 3, 'Cold and rainy days are perfect to taste a little more alcoholic beer than the average, with a more particular flavor.')
+explanation('which_season', 4, 'Frosty days are perfect to taste something sweet or roasty, that strongly change your palate. Also, high alcoholic beers can heat you up.')
+
+alcohol_for_season(1, harsh)
+alcohol_for_season(1, noticeable)
+alcohol_for_season(1, mild)
+alcohol_for_season(1, 'not-detectable')
+alcohol_for_season(2, mild)
+alcohol_for_season(2, 'not-detectable')
+alcohol_for_season(3, mild)
+alcohol_for_season(3, harsh)
+alcohol_for_season(3, noticeable)
+alcohol_for_season(3, 'not-detectable')
+alcohol_for_season(4, harsh)
+alcohol_for_season(4, noticeable)
+
+flavor_for_season(1, 'fruity-spicy')
+
+# end: which_season
