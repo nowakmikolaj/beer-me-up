@@ -1,0 +1,4 @@
+gender($ans)
+    Are you a male or female?
+    ---
+    $ans = string("male"|"female")
