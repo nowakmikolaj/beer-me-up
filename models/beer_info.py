@@ -3,10 +3,8 @@ from .beer import Beer
 
 class BeerInfo(Beer):
     def __init__(self, beer):
-        self.name = beer.name
-        self.link = beer.link
-        self.explanation = beer.explanation
-        self.count = 0
+        super().__init__(beer.name, beer.link, beer.explanation)
+        self.count = 1
 
     def add(self, explanation):
         self.count += 1
