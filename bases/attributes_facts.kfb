@@ -1,1 +1,39 @@
 # Additional facts for rules
+
+# rule: which_season
+explanation('which_season', spring, 'Spring days are perfect to taste beers with clean or spicy flavor, without the clash of too much alcohol. ')
+explanation('which_season', summer, 'Hotter days are perfect to taste beers with a slight sense of alcohol, with a clean fresh flavor. ')
+explanation('which_season', autumn, 'Cold and rainy days are perfect to taste a little more alcoholic beer than the average, with a more particular flavor. ')
+explanation('which_season', winter, 'Frosty days are perfect to taste something sweet or roasty, that strongly change your palate. Also, high alcoholic beers can heat you up. ')
+
+alcohol_for_season(spring, harsh)
+alcohol_for_season(spring, noticeable)
+alcohol_for_season(spring, mild)
+alcohol_for_season(spring, 'not-detectable')
+flavor_for_season(spring, 'fruity-spicy')
+flavor_for_season(spring, 'crisp-clean')
+
+alcohol_for_season(summer, mild)
+alcohol_for_season(summer, 'not-detectable')
+flavor_for_season(summer, 'crisp-clean')
+flavor_for_season(summer, 'hoppy-bitter')
+
+alcohol_for_season(autumn, mild)
+alcohol_for_season(autumn, harsh)
+alcohol_for_season(autumn, noticeable)
+alcohol_for_season(autumn, 'not-detectable')
+flavor_for_season(autumn, 'sour-tart-funky')
+flavor_for_season(autumn, 'fruity-spicy')
+
+alcohol_for_season(winter, harsh)
+alcohol_for_season(winter, noticeable)
+flavor_for_season(winter, 'malty-sweet')
+flavor_for_season(winter, 'dark-roasty')
+# end: which_season
+
+# rule: preferred_color
+explanation('preferred_color', pale, 'You prefer a pale beer. ')
+explanation('preferred_color', amber, 'You prefer an amber beer. ')
+explanation('preferred_color', brown, 'You prefer a brown beer. ')
+explanation('preferred_color', dark, 'You prefer a dark beer. ')
+# end: preferred_color
