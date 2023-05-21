@@ -39,18 +39,22 @@ explanation('preferred_color', dark, 'You prefer a dark beer. ')
 # end: preferred_color
 
 # rule: regular_drinker
-explanation('regular_drinker', yes, 'You are a regular drinker')
-explanation('regular_drinker', no, 'You're supposed to start with standard aromas; afterwards, you'll be ready for something more peculiar.')
+explanation('regular_drinker', yes, 'You are a regular drinker so you might want to have something stronger. ')
+explanation('regular_drinker', no, 'You are supposed to start with standard aromas; afterwards, you will be ready for something more peculiar. ')
 
-flavor_for_regular_drinkers(no, crisp-clean)
+flavor_for_regular_drinkers(no, 'crisp-clean')
+alcohol_for_regular_drinkers(yes, 'noticeable')
+alcohol_for_regular_drinkers(yes, 'harsh')
 # end: regular_drinker
 
 # rule: smoker
-explanation('regular_drinker', yes, 'Beers with a cleaner flavor may be the good choice while smoking, because the beer may alter the taste of tobacco.')
-explanation('regular_drinker', no, 'You are not as smoker')
+explanation('regular_smoker', yes, 'Beers with a cleaner flavor may be the good choice while smoking, because the beer may alter the taste of tobacco. ')
+explanation('regular_smoker', no, 'Since you are not going to smoke you might want to go with something on the sweeter end. ')
 
-flavor_for_smokers(yes, crisp-clean)
-color_for_smokers(yes, pale)
-alcohol_for_smokers(yes, noticeable)
-carbonation_for_smokers(yes, medium)
+flavor_for_smokers(yes, 'crisp-clean')
+color_for_smokers(yes, 'pale')
+alcohol_for_smokers(yes, 'noticeable')
+carbonation_for_smokers(yes, 'medium')
+
+flavor_for_smokers(no, 'malty-sweet')
 # end: smoker

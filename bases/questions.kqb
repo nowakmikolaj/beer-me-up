@@ -17,9 +17,9 @@ preferred_color($ans)
 regular_drinker($ans)
     Are you a regular drinker by any chance?
     ---
-    $ans = ("yes"|"no")
+    $ans = string("yes"|"no")
 
 smoker($ans)
-    Are you a smoker?
+    Are you planning to smoke while having your drink?
     ---
-    $ans = ("yes"|"no")
+    $ans = string("yes"|"no")
