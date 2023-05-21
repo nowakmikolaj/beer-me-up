@@ -16,3 +16,33 @@ preferred_color
         beer_facts.has_color($beer, $color)
         beer_facts.link($beer, $link)
         attributes_facts.explanation('preferred_color', $color, $explanation)
+
+regular_drinker
+    use beer($beer, $link, $explanation)
+    when
+        questions.regular_drinker($yn)
+
+        attributes_facts.flavor_for_regular_drinkers($yn, $flavor)
+        beer_facts.has_flavor($beer, $flavor)
+
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('regular_drinker', $season, $explanation)
+        
+
+smoker
+    use beer($beer, $link, $explanation)
+    when
+        questions.smoker($yn)
+
+        attributes_facts.flavor_for_smokers($yn, $flavor)
+        attributes_facts.alcohol_for_smokers($yn, $alcohol)
+        attributes_facts.color_for_smokers($yn, $color)
+        attributes_facts.carbonation_for_smokers($yn, $carbonation)
+
+        beer_facts.has_flavor($beer, $flavor)
+        beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.has_color($beer, $color)
+        beer_facts.has_carbonation($beer, $carbonation)
+
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('smoker', $season, $explanation)

@@ -13,3 +13,13 @@ preferred_color($ans)
     Do you generally prefer pale, amber, brown or dark beer?
     ---
     $ans = string("pale"|"amber"|"brown"|"dark")
+
+regular_drinker($ans)
+    Are you a regular drinker by any chance?
+    ---
+    $ans = ("yes"|"no")
+
+smoker($ans)
+    Are you a smoker?
+    ---
+    $ans = ("yes"|"no")
