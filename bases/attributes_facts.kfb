@@ -1,11 +1,32 @@
 # Additional facts for rules
 
+# rule: which_gender
+explanation('which_gender', male, 'You are a man, so you will appreciate more alcoholic beers, maybe with a stronger flavor, such as bitter and sour. ')
+explanation('which_gender', female, 'You are a woman, so you will appreciate beers with less noticeable alcohol, maybe with a cleaner or sweeter flavor. ')
+
+alcohol_for_gender(male, noticeable)
+alcohol_for_gender(male, harsh)
+flavor_for_gender(male, 'dark-roasty')
+flavor_for_gender(male, 'hoppy-bitter')
+flavor_for_gender(male, 'sour-tart-funky')
+color_for_gender(male, dark)
+color_for_gender(male, brown)
+
+alcohol_for_gender(female, mild)
+alcohol_for_gender(female, 'not-detectable')
+flavor_for_gender(female, 'crisp-clean')
+flavor_for_gender(female, 'malty-sweet')
+flavor_for_gender(female, 'fruity-spicy')
+color_for_gender(female, pale)
+color_for_gender(female, amber)
+
 # rule: which_age
-explanation('which_age', young, 'Being so young, you should not appreciate strong flavors or high quantities of alcohol, so I bet you will not be disappointed with these beers. ')
+explanation('which_age', young, 'Being so young, you should not appreciate strong flavors or high quantities of alcohol, so I bet you will not be disappointed with this beer. ')
 explanation('which_age', mature, 'Your age let me choose between a variety of beers with high tolerance in every aspect. ')
 explanation('which_age', adult, 'Your palate could be very demanding: I bet you would try out something peculiar. ')
 
 alcohol_for_age(young, noticeable)
+alcohol_for_age(young, 'not-detectable')
 flavor_for_age(young, 'crisp-clean')
 
 alcohol_for_age(mature, noticeable)

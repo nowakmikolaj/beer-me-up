@@ -1,14 +1,14 @@
 gender($ans)
-    Male or female persons tend to prefer more or less intense beers. Tell me, please, are you male or female?
+    Tell me, please, are you male or female?
     ---
     $ans = string("male" | "female")
 
 age($ans)
-    Younger people tend to prefer less intense beers. Tell me, please, how old are you?
+    Tell me, please, how old are you?
     ---
     $ans = integer(young=18-23 |
-                              mature=24-29 |
-                              adult=30-130)
+                    mature=24-29 |
+                    adult=30-130)
 season($ans)
     Weather conditions influence our perceptions and needs. The choice of a beer is among these.
     Tell me, please, what season is it?
