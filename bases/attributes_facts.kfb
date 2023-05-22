@@ -1,5 +1,25 @@
 # Additional facts for rules
 
+# rule: which_age
+explanation('which_age', young, 'Being so young, you should not appreciate strong flavors or high quantities of alcohol, so I bet you will not be disappointed with these beers. ')
+explanation('which_age', mature, 'Your age let me choose between a variety of beers with high tolerance in every aspect. ')
+explanation('which_age', adult, 'Your palate could be very demanding: I bet you would try out something peculiar. ')
+
+alcohol_for_age(young, noticeable)
+flavor_for_age(young, 'crisp-clean')
+
+alcohol_for_age(mature, noticeable)
+alcohol_for_age(mature, mild)
+flavor_for_age(mature, 'crisp-clean')
+flavor_for_age(mature, 'sour-tart-funky')
+
+alcohol_for_age(adult, noticeable)
+alcohol_for_age(adult, harsh)
+flavor_for_age(adult, 'dark-roasty')
+flavor_for_age(adult, 'hoppy-bitter')
+flavor_for_age(adult, 'sour-tart-funky')
+# end: which_age
+
 # rule: which_season
 explanation('which_season', spring, 'Spring days are perfect to taste beers with clean or spicy flavor, without the clash of too much alcohol. ')
 explanation('which_season', summer, 'Hotter days are perfect to taste beers with a slight sense of alcohol, with a clean fresh flavor. ')
