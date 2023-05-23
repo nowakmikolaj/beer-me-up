@@ -38,6 +38,36 @@ explanation('preferred_color', brown, 'You prefer a brown beer. ')
 explanation('preferred_color', dark, 'You prefer a dark beer. ')
 # end: preferred_color
 
+# rule: preferred_alcohol
+explanation('preferred_alcohol', low, 'You chose a low alcoholic beer. ')
+explanation('preferred_alcohol', mild, 'You chose a mild alcoholic beer. ')
+explanation('preferred_alcohol', high, 'You chose a high alcoholic beer. ')
+explanation('preferred_alcohol', 'very high', 'You chose a very high alcoholic beer. ')
+
+alcohol_strength_for_preference(low, 'not-detectable')
+alcohol_strength_for_preference(mild, 'mild')
+alcohol_strength_for_preference(high, 'noticeable')
+alcohol_strength_for_preference('very high', 'harsh')
+# end: preferred_alcohol
+
+# rule: preferred_flavor
+explanation('preferred_flavor', clean, 'You desire a beer with a clean flavor. ')
+explanation('preferred_flavor', sweet, 'You desire a beer with a sweet flavor. ')
+explanation('preferred_flavor', bitter, 'You desire a beer with a bitter flavor. ')
+explanation('preferred_flavor', 'roasty', 'You desire a beer with a roasty flavor. ')
+explanation('preferred_flavor', 'fruity', 'You desire a beer with a fruity flavor. ')
+explanation('preferred_flavor', 'spicy', 'You desire a beer with a spicy flavor.' )
+explanation('preferred_flavor', 'sour', 'You desire a beer with a sour flavor. ')
+
+flavor_specific_for_general(clean, 'crisp-clean')
+flavor_specific_for_general(sweet, 'malty-sweet')
+flavor_specific_for_general(bitter, 'hoppy-bitter')
+flavor_specific_for_general(roasty, 'dark-roasty')
+flavor_specific_for_general(fruity, 'fruity-spicy')
+flavor_specific_for_general(spicy, 'fruity-spicy')
+flavor_specific_for_general(sour, 'sour-tart-funky')
+# end: preferred_flavor
+
 # rule: regular_drinker
 explanation('regular_drinker', yes, 'You are a regular drinker so you might want to have something stronger. ')
 explanation('regular_drinker', no, 'You are supposed to start with standard aromas; afterwards, you will be ready for something more peculiar. ')

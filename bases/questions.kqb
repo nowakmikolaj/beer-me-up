@@ -14,6 +14,16 @@ preferred_color($ans)
     ---
     $ans = string("pale"|"amber"|"brown"|"dark")
 
+preferred_alcohol($ans)
+    Do you generally prefer to drink low, mild, high or very high alcoholic drinks?
+    ---
+    $ans = string("low"|"mild"|"high"|"very high"|"don't mind")
+
+preferred_flavor($ans)
+    What kind of flavor do you generally prefer?
+    ---
+    $ans = string("clean"|"sweet"|"bitter"|"roasty"|"fruity"|"spicy"|"sour"|"don't mind")
+
 regular_drinker($ans)
     Are you a regular drinker by any chance?
     ---

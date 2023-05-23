@@ -17,6 +17,24 @@ preferred_color
         beer_facts.link($beer, $link)
         attributes_facts.explanation('preferred_color', $color, $explanation)
 
+preferred_alcohol
+    use beer($beer, $link, $explanation)
+    when
+        questions.preferred_alcohol($alcohol_preference)
+        attributes_facts.alcohol_strength_for_preference($alcohol_preference, $alcohol_strength)
+        beer_facts.has_alcohol($beer, $alcohol_strength)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('preferred_alcohol', $alcohol_preference, $explanation)
+
+preferred_flavor
+    use beer($beer, $link, $explanation)
+    when
+        questions.preferred_flavor($flavor_general)
+        attributes_facts.flavor_specific_for_general($flavor_general, $flavor_specific)
+        beer_facts.has_flavor($beer, $flavor_specific)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('preferred_flavor', $flavor_general, $explanation)
+
 regular_drinker
     use beer($beer, $link, $explanation)
     when
@@ -42,5 +60,3 @@ smoker
 
         beer_facts.link($beer, $link)
         attributes_facts.explanation('smoker', $yn, $explanation)
-        
-
