@@ -23,3 +23,13 @@ preferred_flavor($ans)
     What kind of flavor do you generally prefer?
     ---
     $ans = string("clean"|"sweet"|"bitter"|"roasty"|"fruity"|"spicy"|"sour"|"don't mind")
+
+regular_drinker($ans)
+    Are you a regular drinker by any chance?
+    ---
+    $ans = string("yes"|"no")
+
+smoker($ans)
+    Are you planning to smoke while having your drink?
+    ---
+    $ans = string("yes"|"no")

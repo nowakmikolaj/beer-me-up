@@ -34,3 +34,29 @@ preferred_flavor
         beer_facts.has_flavor($beer, $flavor_specific)
         beer_facts.link($beer, $link)
         attributes_facts.explanation('preferred_flavor', $flavor_general, $explanation)
+
+regular_drinker
+    use beer($beer, $link, $explanation)
+    when
+        questions.regular_drinker($yn)
+        attributes_facts.flavor_for_regular_drinkers($yn, $flavor)
+        attributes_facts.alcohol_for_regular_drinkers($yn, $alcohol)
+        beer_facts.has_flavor($beer, $flavor)
+        beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('regular_drinker', $yn, $explanation)
+
+smoker
+    use beer($beer, $link, $explanation)
+    when
+        questions.smoker($yn)
+        attributes_facts.flavor_for_smokers($yn, $flavor)
+        attributes_facts.alcohol_for_smokers($yn, $alcohol)
+        attributes_facts.color_for_smokers($yn, $color)
+
+        beer_facts.has_flavor($beer, $flavor)
+        beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.has_color($beer, $color)
+
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('smoker', $yn, $explanation)
