@@ -1,3 +1,27 @@
+which_gender
+    use beer($beer, $link, $explanation)
+    when
+        questions.gender($gender)
+        attributes_facts.alcohol_for_gender($gender, $alcohol)
+        attributes_facts.flavor_for_gender($gender, $flavor)
+        attributes_facts.color_for_gender($gender, $color)
+        beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.has_flavor($beer, $flavor)
+        beer_facts.has_color($beer, $color)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('which_gender', $gender, $explanation)
+
+which_age
+    use beer($beer, $link, $explanation)
+    when
+        questions.age($age)
+        attributes_facts.alcohol_for_age($age, $alcohol)
+        attributes_facts.flavor_for_age($age, $flavor)
+        beer_facts.has_alcohol($beer, $alcohol)
+        beer_facts.has_flavor($beer, $flavor)
+        beer_facts.link($beer, $link)
+        attributes_facts.explanation('which_age', $age, $explanation)
+
 which_season
     use beer($beer, $link, $explanation)
     when

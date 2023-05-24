@@ -1,8 +1,14 @@
 gender($ans)
-    Are you a male or female?
+    Tell me, please, are you male or female?
     ---
-    $ans = string("male"|"female")
+    $ans = string("male" | "female")
 
+age($ans)
+    Tell me, please, how old are you?
+    ---
+    $ans = integer(young=18-23 |
+                    mature=24-29 |
+                    adult=30-130)
 season($ans)
     Weather conditions influence our perceptions and needs. The choice of a beer is among these.
     Tell me, please, what season is it?
