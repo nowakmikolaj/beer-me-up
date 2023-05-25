@@ -4,6 +4,7 @@ from pyke import knowledge_engine
 from pyke import krb_traceback
 from models.beer import Beer
 from models.beer_info import BeerInfo
+import os
 
 display_count = 5
 
@@ -14,7 +15,8 @@ def run_driver():
 
     engine.activate('rules')
 
-    print()
+    os.system('clear')
+
     print('----------------------')
     print("Welcome to Beer-Me-Up!")
     print('----------------------')
@@ -34,7 +36,7 @@ def run_driver():
         # Get unique beers
         keys = list(set(beers))
         print('\nGenerating result...\n')
-        print(f'{len(keys)} beers found.')
+        print(f'{len(keys)} beers found.\n')
 
         # Create dictionary
         dictionary = {}
@@ -52,7 +54,7 @@ def run_driver():
         print(f'Prepared {display_count} beers for you:')
         result = list(dictionary.values())
         for index, beer in enumerate(result[0:display_count]):
-            print(f'#{index+1} {beer}')
+            print(f'#{index+1} {beer}\n')
 
     except Exception:
         # This converts stack frames of generated python functions back to the
